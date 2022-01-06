@@ -9,10 +9,11 @@ export default function HomeComponent() {
 
       <div className="space-y-6">
         <address>
-          <a href="mailto:johanhanses@gmail.com" target="_blank"
-             className="flex items-center hover:text-green-500 transition-colors duration-300 not-italic">
+          <a
+            href="mailto:johanhanses@gmail.com"
+            className="flex items-center hover:text-green-500 transition-colors duration-300 not-italic"
+          >
             <EmailLogo />
-
             johanhanses@gmail.com
           </a>
         </address>
@@ -23,7 +24,7 @@ export default function HomeComponent() {
           <div className="leading-relaxed">
             <p>
               Laravel and JavaScript fullstack developer based in Falun, Sweden.
-              Coding web stuff at {" "}
+              Coding web stuff at{" "}
               <a
                 href="https://panang.se"
                 target="_blank"
