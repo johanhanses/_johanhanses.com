@@ -2,7 +2,7 @@ import Links from "./home/links"
 import EmailLogo from "./home/emailLogo"
 import InfoLogo from "./home/infoLogo"
 
-export default function HomeComponent() {
+export default function HomeContent() {
   return (
     <div className="mx-auto md:p-6 text-lg md:text-2xl font-lato">
       <Links />
