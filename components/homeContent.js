@@ -11,7 +11,7 @@ export default function HomeContent() {
         <address>
           <a
             href="mailto:johanhanses@gmail.com"
-            className="flex items-center hover:text-green-500 transition-colors duration-300 not-italic"
+            className="flex items-center hover:text-green-500 dark:hover:text-green-900 transition-colors duration-300 not-italic"
           >
             <EmailLogo />
             johanhanses@gmail.com
@@ -29,7 +29,7 @@ export default function HomeContent() {
                 href="https://panang.se"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="underline hover:text-green-500 transition-colors duration-300"
+                className="underline hover:text-green-500 dark:hover:text-green-900 transition-colors duration-300"
               >
                 Panang.
               </a>

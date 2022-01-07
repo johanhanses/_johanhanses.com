@@ -8,7 +8,7 @@ export default function Links() {
         href="https://www.linkedin.com/in/johanhanses/"
         target="_blank"
         rel="noopener noreferrer"
-        className="hover:text-green-500 transition-colors duration-300"
+        className="hover:text-green-500 dark:hover:text-green-900 transition-colors duration-300"
       >
         <LinkedInLogo />
       </a>
@@ -17,7 +17,7 @@ export default function Links() {
         href="https://github.com/johanhanses"
         target="_blank"
         rel="noopener noreferrer"
-        className="hover:text-green-500 transition-colors duration-300"
+        className="hover:text-green-500 dark:hover:text-green-900 transition-colors duration-300"
       >
         <GitHubLogo />
       </a>

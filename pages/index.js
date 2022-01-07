@@ -13,7 +13,7 @@ export default function Home() {
       <div className="w-full px-4 lg:px-0">
         <Header />
 
-        <main className="max-w-4xl mx-auto flex justify-between md:items-center py-2 lg:py-4 md:border-[24px] border-green-500 lg:min-h-[400px]">
+        <main className="max-w-4xl mx-auto flex justify-between md:items-center py-2 lg:py-4 md:border-[24px] border-green-500 dark:border-green-900 lg:min-h-[400px]">
           <HomeContent />
         </main>
       </div>
